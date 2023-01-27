@@ -21,9 +21,8 @@ const BinaryPage = () => (
           Integer Representation
       </h3>
       <p>
-          First, let's play with this <a className={Content.a} href="https://replit.com/languages/java10">java repl</a>. Define an integer and assign
-          it the value  2,147,483,647. Add 1 to this integer and print out the result. The outcome is a negative number! If you're <i>still</i> not convinced
-          that understanding how integers are represented is important, then 
+          First, take a look at this <a className={Content.a} href="https://replit.com/@ryanwrites/Integer-Overflow#Main.java">java repl</a>. It shows us what happens
+          when we add 1 to 2,147,483,647. If the example <i>still</i> doesn't convince you that understanding how integers are represented is important, then 
           consider that the failure of <a className={Content.a} href="https://en.wikipedia.org/wiki/Ariane_flight_V88">this rocket launch</a> was from the same bug!
       </p> 
       <p>
@@ -33,6 +32,14 @@ const BinaryPage = () => (
       <h3> 
           Floating Point Representation
       </h3>
+      <p>
+          We've already seen how a lack of understanding of integer representation can lead to a large amount of confusion and floating points are no exception!
+          Check <a className={Content.a} href="https://replit.com/@ryanwrites/Floating-Point-Imprecision#index.js">this javascript repl</a> to see what happens if you sum .1 and .2 together. 
+          As we can see, the laws of integer arithmetic don't apply to floating points. 
+      </p>
+      <p>
+          For those interested in digging deeper into floating points, there's a fantastic paper titled <a className={Content.a} href="https://www.itu.dk/~sestoft/bachelor/IEEE754_article.pdf">What Every Computer Scientist Should Know About Floating-Point Arithmetic</a>.
+      </p>
 
       <h3> 
           ASCII, Unicode, and UTF-8
