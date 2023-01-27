@@ -21,6 +21,7 @@
         flex-wrap: wrap;
         list-style-type: none;
         justify-content: left;
+        align-items: flex-start;
     }
 
     .li {
