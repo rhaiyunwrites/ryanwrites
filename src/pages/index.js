@@ -1,21 +1,15 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import Content from "../components/content.module.css"
+
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+      <p className={Content.text}>
+        Hello! This website was created to list my various thoughts related to math, cs, and learning in general.
+        Please feel free to use the material on this site as a resource for your studies. I hope it can help you 
+        overcome some of the many struggles I faced when I first encountered these subjects.
+      </p>
   </Layout>
 )
 

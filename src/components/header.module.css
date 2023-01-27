@@ -1,0 +1,28 @@
+.header {
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    width: 100%;
+    min-width: 200px;
+    max-width: 600px;
+    height: 3.25em;
+    background: transparent;
+    background-color: white;
+}
+
+.h2 {
+    margin: .5em;
+}
+
+.hl {
+	min-width: 200px;
+	max-width: 600px;
+	right: 1em;
+	left: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0em;
+    position: fixed;
+    color: rgba(136,136,136,0.5);
+}

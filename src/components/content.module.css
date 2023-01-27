@@ -1,0 +1,27 @@
+.content {
+    /*margin-right: 110px;*/
+}
+
+.title {
+    font-size: 1.5em;
+    font-variant: small-caps;
+    margin-bottom: .25em;
+}
+
+.li {
+    margin: .15em 0 0 1em;
+    list-style-type: none;
+}
+
+.text {
+    max-width: 480px;
+}
+
+.a {
+    color: inherit;
+}
+
+.subtitle {
+    font-size: 1.5em;
+    margin-bottom: .25em;
+}
