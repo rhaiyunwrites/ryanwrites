@@ -1,5 +1,5 @@
 import React from "react"
-import Header from "../components/Header"
+import Header from "../components/header"
 import Navbar from "../components/navbar"
 import Content from "../components/content.module.css"
 import layoutStyles from "../components/layout.module.css"
