@@ -7,6 +7,8 @@ import { Link } from "gatsby"
 const IndexPage = () => (
   <Layout>
     <div>
+      <h3> Abstractions </h3>
+
       <p className={Content.text}>
           Abstractions are an extremely powerful, almost magical way of managing complexity.
           Thanks to abstractions, a beginning coder can "stand on the shoulders of giants." 
