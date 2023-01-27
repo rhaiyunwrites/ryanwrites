@@ -18,7 +18,7 @@ const IndexPage = () => (
           Sometimes they fail us, leading us to bugs we don't expect or understand. 
           Now, most of the time we can get past these bugs with the help of google,
           but what happens when Stack Overflow can't come to our rescue?
-          The only way forward to overcome these hurdles is to dig deeper and understand what is happening under the hood.
+          The only way forward to overcome these hurdles is to dig deeper and understand what is happening underneath.
       </p>
       <p>
           Of course, it's impossible to dig into every abstraction you come across, 

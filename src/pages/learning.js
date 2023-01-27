@@ -14,7 +14,7 @@ const LearningPage = () => (
       </p>
 
       <li>
-      <Link to="/abstractions/" className={Content.a}>Digging into abstractions</Link>
+      <Link to="/abstractions/" className={Content.a}>Digging into Computer Science abstractions</Link>
       </li>
 
     </div>
