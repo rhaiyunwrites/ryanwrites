@@ -8,7 +8,7 @@ const AboutPage = () => (
   <Layout>
       <p className={Content.text}>
       	I spent the first part of my career working at quant trading firms. 
-      	Now, with a kid on the way, I'm taking a break from work and writing code for fun.
+      	Now that my wife and I are expecting a child, I'm taking a break from work and writing code for fun.
       </p>
   </Layout>
 )
