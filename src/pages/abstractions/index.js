@@ -23,8 +23,8 @@ const IndexPage = () => (
           The only way forward to overcome these hurdles is to dig deeper and understand what is happening underneath.
       </p>
       <p>
-          Of course, it's impossible to dig into every abstraction you come across, 
-          there just simply isn't enough time in the world. 
+          It is of course impossible to dig into every abstraction you come across. 
+          There just simply isn't enough time in the world. 
           Knowing which abstractions to dig into is a challenging skill to gain, especially for a beginner.
           Below are links to some arguments and resources for studying abstractions that I personally find helpful having a deeper understanding of.
       </p>
