@@ -36,7 +36,7 @@ const IndexPage = () => (
         garbage collection
       </li>
       <li>
-        <Link to="/abstractions/binary/" className={Content.a}>Integers, Floating Points, and Character Encodings></Link>
+        <Link to="/abstractions/binary/" className={Content.a}>Integers, Floating Points, and Character Encodings</Link>
       </li>
       <li>
         Kernel or OS
