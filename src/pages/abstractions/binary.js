@@ -45,7 +45,7 @@ const BinaryPage = () => (
           As we can see, the output isn't .3; the laws of integer arithmetic don't apply to floating points! Can you imagine what would happen if a bank represented your funds with floating points?
       </p>
       <p>
-          Our example of summing .1 with .2 is just one example of several wonky things that can happen when you mess around with floating points.
+          Our example of summing .1 with .2 is just one example of several wonky things that could happen when using floating points.
           For those interested in digging deeper into floating points, there's a fantastic paper titled <a className={Content.a} href="https://www.itu.dk/~sestoft/bachelor/IEEE754_article.pdf">What Every Computer Scientist Should Know About Floating-Point Arithmetic</a>.
       </p>
 
@@ -61,8 +61,8 @@ const BinaryPage = () => (
       </p>
       <p>
           If you don't want to introduce yourself to these encodings by sifting through wikipedia pages, 
-          Joel Spolsky has a <a className={Content.a} href="https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/">great introduction</a>
-          that is more than up to the task.
+          Joel Spolsky has a <a className={Content.a} href="https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/">great introduction</a> that 
+          is more than up to the task.
       </p>
     </div>
   </Layout>
