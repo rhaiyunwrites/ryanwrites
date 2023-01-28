@@ -28,7 +28,7 @@ const BinaryPage = () => (
       </p>
 
       <p>
-          Now you might be thinking, "Alright, I'll have an arithmetic error or two. What's the big deal?"
+          At this point you might be thinking, "Alright, I'll have an arithmetic error or two. What's the big deal?"
           Well, it turns out these bugs can lead to pretty much anything. For instance, <a className={Content.a} href="https://en.wikipedia.org/wiki/Ariane_flight_V88">this rocket launch failing</a> was 
           due to the exact same bug!
       </p> 
