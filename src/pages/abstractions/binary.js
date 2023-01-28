@@ -56,13 +56,12 @@ const BinaryPage = () => (
           Now we'll leave the realm of numbers and start considering characters! So, note that in order for the computer to generate
           the blog you're reading right now, there must be an encoding that the computer uses to map binary numbers to english 
           characters. <a className={Content.a} href="https://en.wikipedia.org/wiki/ASCII">ASCII</a>, <a className={Content.a} href="https://en.wikipedia.org/wiki/Unicode">unicode</a>,  and <a className={Content.a} href="https://en.wikipedia.org/wiki/UTF-8">UTF-8</a> are 
-          encoding schemes to represent language. Understanding these encoding schemes can lead to deciphering the cryptic diamonds with question marks we sometimes get when opening emails, texts, or documents
+          encoding schemes to represent language. Understanding these encoding schemes can help us deal with the cryptic diamonds with question marks we sometimes get when opening emails, texts, or documents
           with encoding schemes our programs or protocols are not familiar with.
       </p>
       <p>
-          Hopefully by this point of the article, you're jumping out of your seat to check out 
-          <a className={Content.a} href="https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/">
-          Joel Spolsky's thoughts on what you should know about character sets</a>.
+          Joel Spolsky actually has a <a className={Content.a} href="https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/">great article</a>
+          for familiarizing yourself with these encodings.
       </p>
     </div>
   </Layout>
