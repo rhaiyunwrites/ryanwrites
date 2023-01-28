@@ -60,7 +60,7 @@ const BinaryPage = () => (
           with encoding schemes our programs or protocols are not familiar with.
       </p>
       <p>
-          If you don't want to sift through wikipedia yourself and want a softer introduction to these encodings, 
+          If you don't want to sift through wikipedia pages for these encodings and want a softer introduction, 
           Joel Spolsky has a <a className={Content.a} href="https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/">great article</a>
           that is more than up to the task.
       </p>
