@@ -26,12 +26,25 @@ const IndexPage = () => (
           It is of course impossible to dig into every abstraction you come across. 
           There just simply isn't enough time in the world. 
           Knowing which abstractions to dig into is a challenging skill to gain, especially for a beginner.
-          Below are links to some arguments and resources for studying abstractions that I personally find helpful having a deeper understanding of.
+          Below are links to some articles that argue why you should dig deeper into abstractions.
       </p>
-
+      
       <li>
-      <Link to="/abstractions/binary/" className={Content.a}>Binary</Link>
+        <Link to="/abstractions/compiler/" className={Content.a}>Can't the compiler do that for me?</Link>
       </li>
+      <li>
+        garbage collection
+      </li>
+      <li>
+        <Link to="/abstractions/binary/" className={Content.a}>Integers, Floating Points, and Character Encodings></Link>
+      </li>
+      <li>
+        Kernel or OS
+      </li>
+      <li>
+        <Link to="/abstractions/memory-hierarchy/" className={Content.a}>The Memory Hierarchy</Link>
+      </li>
+      
 
     </div>
   </Layout>
