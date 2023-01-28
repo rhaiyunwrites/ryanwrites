@@ -8,7 +8,9 @@ import { Link } from "gatsby"
 const CompilerPage = () => (
   <Layout>
     <div>
-      Compiler Placeholder
+    	<p>
+    	Coming soon. Sorry for the delay!
+    	</p>
     </div>
   </Layout>
 )
