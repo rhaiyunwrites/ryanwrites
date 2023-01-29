@@ -12,7 +12,7 @@ const BinaryPage = () => (
           Integers, Floating Points, and Character Encodings 
       </h3>
       <p>
-          Since most people find these topics pretty dry I often find that the hardest part about digging into them is convincing people it's worth the effort;
+          Since most people find these topics pretty dry, I often find that the hardest part about digging into them is convincing people it's worth the effort;
           so, for this particular article I'll mainly bring up examples that can hopefully motivate your exploration, followed with a resource to dig deeper in yourself.
       </p>
 
