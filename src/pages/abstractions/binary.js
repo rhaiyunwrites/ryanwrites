@@ -12,16 +12,20 @@ const BinaryPage = () => (
           Binary
       </h3>
       <p>
-          Before we can poke integers, floating points, and character encodings to see how they "break," 
+          Before we can dig into integers, floating points, and character encodings to see how they "break," 
           we'll first need to have an understanding of how the binary number system works. 
           In case you're unfamiliar with binary, please familiarize yourself <a className={Content.a} href="https://brilliant.org/wiki/binary-numbers/">here</a> for a quick introduction.
+      </p>
+      <p>
+          Since most people find these topics pretty dry I often find that the hardest part about digging into them is convincing people it's worth the effort;
+          so, for this particular article I'll mainly bring up examples that can hopefully motivate your exploration, followed with a resource to dig deeper in yourself.
       </p>
 
       <h3>
           Integer Representation
       </h3>
       <p>
-          Now that we're comfortable with binary, let's dive right in and consider what happens when we increment 2,147,483,647 by 1.
+          Diving right in, let's consider what happens when we increment the integer 2,147,483,647 by 1.
           When I first came across this, I was shocked! Not only is the output not 2,147,483,648, it was negative!
           Take a look at <a className={Content.a} href="https://replit.com/@ryanwrites/Integer-Overflow#Main.java">this java repl</a> if 
           you want to witness it with your own eyes. 
