@@ -7,6 +7,9 @@ import { Link } from "gatsby"
 
 const BinaryPage = () => (
   <Layout>
+    <p>
+      January 29, 2023
+    </p>
     <div>
       <h3>
           Integers, Floating Points, and Character Encodings 
