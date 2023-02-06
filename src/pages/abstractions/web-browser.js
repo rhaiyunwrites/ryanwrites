@@ -33,12 +33,11 @@ const WebBrowserPage = () => (
       </p>
       <p>
       The layers are as follows: 
-
-      Application Layer (layer 7) 
-      Transport Layer (layer 4) 
-      Network Layer (layer 3) 
-      Link Layer (layer 2) 
-      Physical Layer (layer 1) 
+      <li>Application Layer (layer 7) </li>
+      <li>Transport Layer (layer 4) </li>
+      <li>Network Layer (layer 3) </li>
+      <li>Link Layer (layer 2) </li>
+      <li>Physical Layer (layer 1) </li>
       The application layer houses everything in "userland." All the applications you run on your desktop fall into 
       this category. When your application wants to send information over the internet, it passes that information over 
       to the transport layer. Traditionally, the transport layer often boils down to what kind of data transfer your 
