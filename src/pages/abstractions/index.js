@@ -44,7 +44,9 @@ const IndexPage = () => (
       <li>
         <Link to="/abstractions/memory-hierarchy/" className={Content.a}>The Memory Hierarchy</Link>
       </li>
-      
+      <li>
+        <Link to="/abstractions/web-browser/" className={Content.a}>The Web Browser</Link>
+      </li>
 
     </div>
   </Layout>
