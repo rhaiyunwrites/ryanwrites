@@ -33,7 +33,7 @@ const WebBrowserPage = () => (
       </p>
       <p>
       The layers are as follows: 
-      Application Layer (layer 7)  <br>
+      Application Layer (layer 7)  <br>  
       <li>Transport Layer (layer 4) </li>
       <li>Network Layer (layer 3) </li>
       <li>Link Layer (layer 2) </li>
