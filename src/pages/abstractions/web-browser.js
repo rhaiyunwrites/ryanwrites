@@ -41,7 +41,13 @@ const WebBrowserPage = () => (
       Link Layer (layer 2) <br>
       Physical Layer (layer 1) <br>
       <br>
-      For our purposes, we'll couple the link and physical layers together.
+      The application layer houses everything in "userland." All the applications you run on your desktop fall into 
+      this category. When your application wants to send information over the internet, it passes that information over 
+      to the transport layer. Traditionally, the transport layer often boils down to what kind of data transfer your 
+      application wants. The two most famous protocols in the network layer are UDP and TCP. While the transport layer will
+      define certain properties about the transfer of your data (for example reliability of the data reaching its destination), it 
+      doesn't define the path of routers your data will take to reach its destination. That path is the responsibility of the 
+      link layer. For our purposes, we'll idealize the link and physical layers together as one abstraction.
       </p>
 
       <h3>
