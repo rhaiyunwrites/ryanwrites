@@ -40,8 +40,8 @@ const WebBrowserPage = () => (
       Link Layer (layer 2)<br />
       Physical Layer (layer 1)<br /><br />
 
-      The application layer houses everything in "userland" (in our example this would be the browser itself). 
-      All the applications you run on your desktop fall into this category. When your application wants to send 
+      The application layer encapsulates all the protocols a desktop application uses to communicate via the network (in our example this would be the browser itself). 
+      When your application wants to send 
       information over the internet, it passes that information over to the transport layer. Traditionally, the transport 
       layer often boils down to what kind of data transfer guarantees your application wants. The two most famous protocols 
       in the network layer are UDP and TCP. While the transport layer will define certain properties about the transfer of your 
@@ -61,7 +61,7 @@ const WebBrowserPage = () => (
       <p>
       HTTP is the application layer protocol our browser will use to request a webpage from amazon.com. 
       However, in order to even make an HTTP request, our browser needs to know 
-      where an amazon servers resides. In computer networking, the location a web server is described by its 
+      where amazon's servers resides. In computer networking, the location of a web server is described by its 
       IP address, and the method for discovering IP addresses is another application layer protocol called DNS. 
       So, our browser will first make a DNS request to obtain amazon.com's IP address, then our browser will make an HTTP 
       GET request to Amazon's web servers.
@@ -77,12 +77,12 @@ const WebBrowserPage = () => (
       </p>
       <p>
       TCP is a connection oriented protocol. It guarantees that the information packets that travel through it are 
-      guaranteed to arrive at the destination in its proper order. UDP, on the other hand, is very light weight 
+      guaranteed to arrive at the destination in its proper order. UDP, on the other hand, is very lightweight 
       and doesn't even guarantee that your message will arrive at the destination. 
       </p>
       <p>
       The work of our transport layer protocols is handled by the operating system. When an application sends out a packet, 
-      the operating system creates a socket and binds it to a port; it then uses the socket as a communication endpoint. When 
+      the operating system creates a socket and binds it to a port (the application developer can choose to specify the port); it then uses the socket as a communication endpoint. When 
       sending out a message, the operating system appends all the transport layer header information needed onto your data before 
       sending it out to the network layer.
       When a packet arrives at our computer, the operating system ensures that the transport layer headers are read and 
@@ -107,8 +107,18 @@ const WebBrowserPage = () => (
       Both IPv4 and IPv6 are protocols used for forwarding packets between individual routers in the network layer. 
       When a packet arrives at a router, the router inspects the IPv4 or IPv6 header on the packet and decide which of its neighboring 
       routers to forward the packet to. Once the receiving router is identified, the packet is sent over to the link layer. 
+      </p>
+      <p>
       As a side note, IPv4 and IPv6 are equipped with ways to remove unneeded stress on the network. 
-      For example, the router can drop the packet and not forward it under conditions such asthe data integrity of the packet being compromised. 
+      For example, the protocol sets a counter known as "time-to-live" for each packet. Every time a packet arrivces at 
+      a router, the "time-to-live" counter is decremented. If the counter ever reaches 0, then the packet is discarded. This is the 
+      mechanism implemented to deal with potential infinite loops in the network.
+      </p>
+      <p>
+      IPv4 even has a mechanism to deal with data corruption. Routers will drop packets if the 
+      data integrity of the packet has been compromised. This is accomplished via a one's complement checksum. IPv6 
+      chose to opt out of this feature to speed up packet forwarding. It's also worth noting that the designers of 
+      IPv6 made this decision considering that there are checksums within both layers 2 and 4 already.
       </p>
       <h3>
       Link/Physical Layer Protocols
