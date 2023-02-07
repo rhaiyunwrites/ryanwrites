@@ -123,9 +123,9 @@ const WebBrowserPage = () => (
       Getting to Our Destination
       </h3>
       <p>
-      Eventually, after our packet continually travels through a number of links and routers, it will eventually reach 
+      After our packet travels through a number of links and routers, it will eventually reach 
       our desination's end system. In the case of a DNS request it will reach a DNS server, and in the case of HTTP it will 
-      reach an Amazon web server. (I've actually thrown A LOT of details under the rug, specifically in the case of DNS. There's a whole 
+      reach a web server. (I've actually thrown A LOT of details under the rug, specifically in the case of DNS. There's a whole 
       hierarchical process of ascertaining an IP address.) Once at these servers, a response will be generated catered for our 
       request. The response then sets out on a journey to go through all the layers of the internet again to arrive back to our browser!
       </p>
