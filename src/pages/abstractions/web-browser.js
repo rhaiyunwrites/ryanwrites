@@ -40,8 +40,8 @@ const WebBrowserPage = () => (
       Link Layer (layer 2)<br />
       Physical Layer (layer 1)<br /><br />
 
-      The application layer encapsulates all the protocols a desktop application uses to communicate via the network (in our example this would be the browser itself). 
-      When your application wants to send 
+      The application layer encapsulates all the protocols a desktop application uses to communicate via the network. 
+      When your application layer protocol wants to send 
       information over the internet, it passes that information over to the transport layer. Traditionally, the transport 
       layer often boils down to what kind of data transfer guarantees your application wants. The two most famous protocols 
       in the network layer are UDP and TCP. While the transport layer will define certain properties about the transfer of your 
