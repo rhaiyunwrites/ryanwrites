@@ -7,6 +7,9 @@ import { Link } from "gatsby"
 const IndexPage = () => (
   <Layout>
     <div>
+    <p>
+    27 January, 2023
+    </p>
       <h3> Abstractions </h3>
 
       <p className={Content.text}>

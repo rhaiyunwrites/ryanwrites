@@ -125,7 +125,7 @@ const WebBrowserPage = () => (
       </h3>
       <p>
       Finally, we've reached the lowest level protocols for the scope of this article. Examples of these protocols are WiFi, 
-      Bluetooth, and Ethernet. The only thing we'll note about the physical/link layer is that it acts as the glue that links 
+      Bluetooth, and Ethernet. The only thing we'll note about the link/physical layer is that it acts as the glue that links 
       all our routers together allowing us to have what we know as the internet. 
       </p>
 
